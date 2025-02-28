@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjfn7nfttfdws"]
+
+[ext_resource type="Script" path="res://Scripts/ice_piece.gd" id="1_ppx15"]
+[ext_resource type="Texture2D" uid="uid://x1q0je3mmtv5" path="res://Art/Obstacles/Ice.png" id="2_0acjl"]
+
+[node name="ice_piece" type="Node2D"]
+script = ExtResource("1_ppx15")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_0acjl")
